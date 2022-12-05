@@ -27,7 +27,9 @@ Just like a regular inline macro link, you can also set a label for it.
     @Macro[Macro Name]("Hello World!!" 42){Macro Label}
 
 -   `args[0]` would be equal to the string `Hello World!!`
--   `args[1]` would be equal to the number `42`.
+-   `args[1]` would be equal to the number `42`
+
+Note: This module only recognize the `@Macro[]` format and not the `@UUID[]`
 
 # API
 
