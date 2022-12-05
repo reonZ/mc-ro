@@ -1,0 +1,44 @@
+{
+    "id": "mc-ro",
+    "title": "McRo",
+    "author": "Idle",
+    "description": "Allow passing arguments to chat or inline macros",
+    "authors": [
+        {
+            "name": "Idle",
+            "discord": "Idle#3251"
+        }
+    ],
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "styles": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-lib-wrapper/master/module.json"
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": "10.290",
+        "verified": "10"
+    },
+    "version": "1.0.0",
+    "manifestPlusVersion": "1.2.0",
+    "url": "https://github.com/reonZ/mc-ro",
+    "readme": "https://github.com/reonZ/mc-ro/blob/master/README.md",
+    "manifest": "https://raw.githubusercontent.com/reonZ/mc-ro/master/module.json",
+    "download": "https://github.com/reonZ/mc-ro/releases/download/1.0.0/module.zip",
+    "changelog": "https://github.com/reonZ/${id}/blob/master/CHANGELOG.md",
+    "bugs": "https://github.com/reonZ/mc-ro/issues"
+}

@@ -1,0 +1,8 @@
+{
+    "mc-ro": {
+        "invalid": "Macro command invalid.",
+        "noMacro": "No macro with the identifiant '{id}' could be found.",
+        "noPermission": "You don't have permission to execute the macro '{name}'.",
+        "syntaxError": "There was an error in your macro syntax. See the console (F12) for details."
+    }
+}
