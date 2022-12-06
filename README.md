@@ -2,13 +2,13 @@
 
 This module will offer the ability to add arguments to chat and inline macros. The arguments will be passed to the macro in the form of an array of string or number in a parameter named `args`.
 
-Macros can be called using a number representing the slot in the hotbar, using the macro id or using the macro name. If the macro name or any argument contains spaces, you need to enclose them with double-quotes.
-
 Macros called with this module are still subject to user permissions.
 
 # Chat
 
 You can add arguments simply by separating them with a space while using the macro chat command.
+
+Macros can be called using a number representing the slot in the hotbar, using the macro id or using the macro name. If the macro name or any argument contains spaces, you need to enclose them with double-quotes.
 
     /macro "Macro Name" arg1 arg2 "arg 3"
 
