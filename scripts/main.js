@@ -146,10 +146,20 @@ Hooks.once("libWrapper.Ready", ()=>{
     (0, $3af2587758240bfd$export$4e224afa9c6f52f3)($b013a5dd6d18443e$var$MACRO_CREATE_LINK, (0, $453ab70059a13248$export$cdda5b1be25f9499), "MIXED");
 });
 Hooks.once("ready", ()=>{
+    $b013a5dd6d18443e$var$patchPf2e();
     // @ts-ignore
     game.macros.executeMacro = (0, $453ab70059a13248$export$4efd75b42b486b4d);
 });
 Hooks.on("chatMessage", (0, $cf4c32f03d9bb335$export$71b60514aa72a240));
+function $b013a5dd6d18443e$var$patchPf2e() {
+    if (game.system.id !== "pf2e") return;
+    if (isNewerVersion(game.system.version, "4.4.2")) return;
+    if (!game.pf2e || !game.pf2e.TextEditor) return;
+    // @ts-ignore
+    game.pf2e.TextEditor.enrichHTML = (...args)=>{
+        return TextEditor.enrichHTML(...args);
+    };
+}
 
 
 //# sourceMappingURL=main.js.map

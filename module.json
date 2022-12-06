@@ -2,7 +2,7 @@
     "id": "mc-ro",
     "title": "McRo",
     "author": "Idle",
-    "description": "Allow passing arguments to chat or inline macros",
+    "description": "Allow passing arguments to chat and inline macros",
     "authors": [
         {
             "name": "Idle",
@@ -33,12 +33,12 @@
         "minimum": "10.290",
         "verified": "10"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifestPlusVersion": "1.2.0",
     "url": "https://github.com/reonZ/mc-ro",
     "readme": "https://github.com/reonZ/mc-ro/blob/master/README.md",
     "manifest": "https://raw.githubusercontent.com/reonZ/mc-ro/master/module.json",
-    "download": "https://github.com/reonZ/mc-ro/releases/download/1.0.0/module.zip",
+    "download": "https://github.com/reonZ/mc-ro/releases/download/1.0.1/module.zip",
     "changelog": "https://github.com/reonZ/${id}/blob/master/CHANGELOG.md",
     "bugs": "https://github.com/reonZ/mc-ro/issues"
 }
