@@ -16,7 +16,7 @@ In the macro, you can access those arguments by using `args[0]`, `args[1]` and `
 
 # Inline
 
-You can create an inline macro with arguments in any document (could also be used in the chat directly). A different icon ![](./readme/icon.webp) will be used to highlight inline macros that contain arguments. Inline macros are fully draggable and will carry over their arguments.
+You can create an inline macro with arguments in any place that use `TextEditor.enrichHTML` (could also be used in the chat directly). A different icon ![](./readme/icon.webp) will be used to highlight inline macros that contain arguments. Inline macros are fully draggable and will carry over their arguments.
 
 Note: Inline macros cannot use a slot number, only macro id or name.
 
