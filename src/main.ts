@@ -16,8 +16,20 @@ Hooks.once('libWrapper.Ready', () => {
 })
 
 Hooks.once('ready', () => {
+    patchPf2e()
     // @ts-ignore
     game.macros.executeMacro = executeMacro
 })
 
 Hooks.on('chatMessage', onChatMessage)
+
+function patchPf2e() {
+    if (game.system.id !== 'pf2e') return
+    if (isNewerVersion(game.system.version, '4.4.2')) return
+    if (!game.pf2e || !game.pf2e.TextEditor) return
+
+    // @ts-ignore
+    game.pf2e.TextEditor.enrichHTML = (...args: Parameters<typeof TextEditorPF2e['enrichHTML']>) => {
+        return TextEditor.enrichHTML(...args)
+    }
+}
