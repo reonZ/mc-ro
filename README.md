@@ -2,7 +2,7 @@
 
 This module will offer the ability to add arguments to chat and inline macros. The arguments will be passed to the macro in the form of an array of string or number in a parameter named `args`.
 
-Macros called with this module are still subject to user permissions.
+Note: Macros called with this module are still subject to user permissions.
 
 # Chat
 
